@@ -30,6 +30,7 @@
         <a-row>
             <a-button size="small"
                       @click="inbound.stream.tcp.request.addHeader('Hosting','digikala.com')">
+                      @click="inbound.stream.tcp.request.addHeader('Hosting','digikala.com')">
                 +
             </a-button>
         </a-row>
@@ -64,7 +65,7 @@
     <a-form-item label='{{ i18n "pages.inbounds.stream.tcp.responseHeader" }}'>
         <a-row>
             <a-button size="small"
-                      @click="inbound.stream.tcp.response.addHeader('Content-Type', 'application/octet-stream')">
+                      @click="inbound.stream.tcp.response.addHeader('Co-Type', 'application/octet-stream')">
                 +
             </a-button>
         </a-row>
